@@ -2,7 +2,6 @@
 LEIA is a virtual asm created for some CS course. This project contain an assembly program, a simulator, and some basics assembly functions
 
 
-
 This directory contains LEIA, the simulator for the ASR1 course @ENSL,
 year 2016.
 Authors : Pierre Oechsel and Guillaume Duboc, ENSL.
@@ -22,7 +21,7 @@ Authors : Pierre Oechsel and Guillaume Duboc, ENSL.
 - then ./LEIA {-f,-s,-q} /path/to/example.obj
 
 ## TEST DISTRIB
-cd EX 
+cd EX/
 
 #### simple simulation step by step:
 python3 ../asm.py tp1-simple.s && ../LEIA -s tp1-simple.obj
@@ -32,5 +31,4 @@ python3 ../asm.py hello.s && ../LEIA -f hello.obj
 
 
 ## ISA:
-The ISA of our asm is disponible here:
-http://perso.citi-lab.fr/fdedinec/enseignement/2016/isa2016.pdf
+The ISA of our asm is in the course documentation.
